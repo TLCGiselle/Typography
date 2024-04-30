@@ -26,7 +26,7 @@ function draw() {
   //text('Hi maddy',20,20);
   for (
     let i = 0; i < points.length; i++) {
-    ellipse(points[i].x,+ r* sin(angle+ i*25), points[i].y, 500, 10)
+      ellipse(points[i].x + r*sin(angle + i*25), points[i].y, 10, 10)
   }
   angle +=10;
 }
